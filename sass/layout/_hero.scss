@@ -1,0 +1,29 @@
+.order-service {
+  max-width: 1600px;
+  min-height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/img-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #c4c4c4;
+  padding-bottom: 200px;
+}
+.order-service__container {
+  text-align: center;
+  padding-left: 252px;
+  padding-right: 252px;
+  padding-top: 200px;
+}
+.order-service__title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  text-transform: uppercase;
+}

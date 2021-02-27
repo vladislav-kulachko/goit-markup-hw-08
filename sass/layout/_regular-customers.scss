@@ -1,0 +1,30 @@
+.regular-customers {
+  padding: 94px 0;
+}
+.regular-customers__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.rugular-customers__list-item {
+  width: 170px;
+  height: 90px;
+}
+.regular-customers__list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: border-color 250ms var(--main-trans-tm-func),
+    fill 250ms var(--main-trans-tm-func);
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  fill: var(--icon-color);
+
+  &:hover,
+  &:focus {
+    border-color: var(--blue-color);
+    fill: var(--blue-color);
+  }
+}

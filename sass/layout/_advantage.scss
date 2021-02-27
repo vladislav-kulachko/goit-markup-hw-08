@@ -1,0 +1,32 @@
+.advantage {
+  padding: 94px 0;
+}
+.advantage__list {
+  display: flex;
+  list-style: none;
+}
+.advantage__list-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.advantage__list-icon-box {
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  background-color: var(--button-color);
+}
+.advantage__list-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantage__list-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.715;
+  letter-spacing: 0.03em;
+  color: var(--secondary-black-color);
+}

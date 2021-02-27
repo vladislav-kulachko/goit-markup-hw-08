@@ -1,0 +1,19 @@
+.button-close {
+  position: absolute;
+  transition: fill 250ms var(--main-trans-tm-func);
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--icon-color);
+  border-radius: 50%;
+  background-color: var(--white-color);
+
+  &:hover,
+  &:focus {
+    fill: var(--blue-color);
+  }
+}
