@@ -7,10 +7,19 @@
   text-decoration: none;
   display: inline-block;
 
+  @media screen and (min-width: 1600px) {
+    font-size: 26px;
+  }
+
   &--head {
     padding-top: 16px;
     padding-bottom: 16px;
     color: #000000;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 24px;
+      padding-bottom: 25px;
+    }
   }
 
   &--left-color {

@@ -4,6 +4,11 @@
   background-color: transparent;
   border: none;
   display: block;
+
+  &:hover,
+  &:focus {
+    fill: var(--blue-color);
+  }
 }
 .mobile-button-close {
   position: absolute;
@@ -14,4 +19,9 @@
   background-color: transparent;
   border: none;
   display: block;
+
+  &:hover,
+  &:focus {
+    fill: var(--blue-color);
+  }
 }
