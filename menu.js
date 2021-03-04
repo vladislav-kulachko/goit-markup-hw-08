@@ -4,10 +4,10 @@
   const mobileBtnClose = document.querySelector("[data-menu-close]");
 
   menuBtnRef.addEventListener("click", () => {
-    mobileMenuRef.classList.toggle("is-open");
+    mobileMenuRef.classList.toggle("mobile-menu--is-open");
   });
 
   mobileBtnClose.addEventListener("click", () => {
-    mobileMenuRef.classList.toggle("is-open");
+    mobileMenuRef.classList.toggle("mobile-menu--is-open");
   });
 })();

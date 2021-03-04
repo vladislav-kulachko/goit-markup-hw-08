@@ -1,16 +1,17 @@
 .work {
-  padding-bottom: 94px;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+  padding-bottom: 60px;
 }
 
 .work__list {
   display: flex;
+  justify-content: space-between;
   list-style: none;
 }
 .work__list-item {
   position: relative;
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
 }
 .work__list-label {
   position: absolute;
