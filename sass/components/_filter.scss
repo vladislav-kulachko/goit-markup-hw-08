@@ -1,16 +1,26 @@
-.filter {
-  padding: 93px 0;
+.portfolio {
+  padding: 60px 0;
+  @media screen and (min-width: 1200px) {
+    padding: 93px 0;
+  }
 }
-.filter__selector {
+.filter {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 50px;
   list-style: none;
+  margin: -4px;
+  padding-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 50px;
+  }
 }
 .filter__selector-item {
-  &:not(:last-child) {
-    margin-right: 8px;
-  }
+  margin: 4px;
 }
 .filter__selector-button {
   display: inline-block;
@@ -19,7 +29,7 @@
     box-shadow 250ms var(--main-trans-tm-func);
   border-radius: 4px;
   border: none;
-  min-width: auto;
+  min-width: 100%;
   padding: 6px 22px;
   font-family: inherit;
   font-style: inherit;

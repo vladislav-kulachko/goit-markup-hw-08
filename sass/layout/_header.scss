@@ -23,6 +23,7 @@
   }
 }
 .mobile-menu {
+  z-index: 2;
   position: absolute;
   background-color: var(--white-color);
   height: 100vh;

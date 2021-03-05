@@ -46,7 +46,6 @@
   color: var(--white-color);
 }
 .social-section {
-  padding-bottom: 60px;
   @media screen and (min-width: 768px) {
     padding-top: 5px;
   }
@@ -55,6 +54,7 @@
   }
   @media screen and (max-width: 1199px) {
     text-align: center;
+    padding-bottom: 60px;
   }
 }
 .social-section__title {
